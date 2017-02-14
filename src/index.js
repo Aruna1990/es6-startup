@@ -1,11 +1,3 @@
-function component () {
-	var element = document.createElement('div');
-
-	let func = text => `Hello ${text}`;
-
-	element.innerHTML = func("ES6");
-
-	return element;
-}
+import component from './component'
 
 document.body.appendChild(component());
